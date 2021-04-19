@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WJUIMaker'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'UIKit 便捷库'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  UIKit 便捷库
+  UIKit 快速控件的便捷库
                        DESC
 
   s.homepage         = 'https://github.com/WJCha/WJUIMaker'
