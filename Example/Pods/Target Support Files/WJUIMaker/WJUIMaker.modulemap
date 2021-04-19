@@ -1,0 +1,6 @@
+framework module WJUIMaker {
+  umbrella header "WJUIMaker-umbrella.h"
+
+  export *
+  module * { export * }
+}

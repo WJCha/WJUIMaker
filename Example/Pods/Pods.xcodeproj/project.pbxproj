@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F0D0F7B12F193DBF1AA18D355A7EE5 /* WJUIMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B021E2FC60A40EA8A88799ED96928F /* WJUIMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A772B0BA17862DCDE31286BBE91DD8 /* WJLabelMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E8DD91B24865FE29F10B513D843024 /* WJLabelMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C7C98AEA8F5EDEE9C7524E1B7DD6D84 /* WJUIMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A23636D4B013A00B3C36D12F3334F8 /* WJUIMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFF9B035DDE8E0F6DA6F5016D89467E /* WJUIControlMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C98AAAB284DA3CE193CFAAC8B69EEE /* WJUIControlMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1713F39C72AD178639D9C2A2CF300F63 /* Pods-WJUIMaker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C70C6462B01B1DAF35E7123E68B811 /* Pods-WJUIMaker_Example-dummy.m */; };
+		179B68211293303DD97E5289992DDC8B /* WJUIMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 304B81AB42693454A959F9515B8B60E6 /* WJUIMaker-dummy.m */; };
+		24FA113917CDE876F1A30E116E1BF267 /* WJScrollViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 86570E4E54E8C917D633DF720ACB1ECD /* WJScrollViewMaker.m */; };
+		33E03668E2335D4792B9FD6528D19C2F /* WJTextFieldMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BBFB8B40BE1C3FFD741716BF34F66E /* WJTextFieldMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3577E54F3D7B47F73036EEEA827829FE /* WJUIViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB892A9FBAE1A24716777FD215E23D8 /* WJUIViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F01EBC6B297BD60C6E2ECF966E81D9 /* WJTextViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373A349194600C99F1555565670D725 /* WJTextViewMaker.m */; };
+		5557411D2C9DBF85F8A4EEA3854DCD2E /* WJButtonMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB57C121A3443AD5ACE74973A5BEF68 /* WJButtonMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A76C3E5E7396502E75380965998B98E /* WJImageViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D544C3211110759C2A4C2C0D6831597D /* WJImageViewMaker.m */; };
+		69C9C182041BB4AC909591C5E2C89503 /* Pods-WJUIMaker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51723B450A51B28CFA8CC190AA52CCED /* Pods-WJUIMaker_Tests-dummy.m */; };
+		751AC03BCC988CB50A88F5E54FAB4D66 /* WJImageViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = FC35175C673751241030AA8BA1BE4888 /* WJImageViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8216A2BD9FEEBA7368A794385809C835 /* WJTextViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3844B3642C4E308A13E39EB5103F4A /* WJTextViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D79826063BDDC362CBD173AF13DC1D /* WJLabelMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F094AF64B6048E3EBFDAC37B20ED39 /* WJLabelMaker.m */; };
+		896CA544DD7617D361C5E3A86B900CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8ADE78536B6AF4BB94A60873ED4D68E2 /* WJCollectionViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C43745EB0045878FF8B39D12262FFD /* WJCollectionViewMaker.m */; };
+		8ED1FC629CE46933DB66761BACCDAD2D /* WJTableViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FBB1E0EF0B98A561CAA8A1DA0BE310 /* WJTableViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F0E115529AE76B5480F543233FEE09 /* WJUIViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFAFDC465E8451CFFAAE66BE34E6548 /* WJUIViewMaker.m */; };
+		9EB7D3985C3A7AF2D9FA7C64F34B8D76 /* WJUIControlMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84250FE683C2994CA28C1E9AAAA6E02C /* WJUIControlMaker.m */; };
+		A797E63AD32AFDD9A58D5D10758B597F /* Pods-WJUIMaker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C003FD13ACBB5D7927D9ACBCD54D2F /* Pods-WJUIMaker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B552BD66D0C925DB460AE3FB16C8CD /* WJTextFieldMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C025F56D6216CE5F2652C9D2CDB13D03 /* WJTextFieldMaker.m */; };
+		BADA9B842568345E0588AC32D4825C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C55B47E2A2E5CA54B37B54197CA8B758 /* WJButtonMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A719689B95DCF1A4417FC542D9B7683 /* WJButtonMaker.m */; };
+		C7CB6DD5BFF702E31482D1414A8CF668 /* WJTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B97E12415F23F9573FDFA3027AF61E5 /* WJTableViewMaker.m */; };
+		DF8E4FA3CB593327B159FBEAFEDD91DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E631D764D3ECF91B60142ADA6993C682 /* WJScrollViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EF23B2E6F6B5ED8D252D077D37247F /* WJScrollViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA6AE19CC7D2D30B711F01DCEF6788B3 /* Pods-WJUIMaker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 244AE0106BFFE799C030039F5E8C64FB /* Pods-WJUIMaker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9FC6AB01C5CC949199308281433D97 /* WJCollectionViewMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDC2E860C4C310F665EACA4816E43D4 /* WJCollectionViewMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045D5B017008222C0BC8F0EE3673F6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D77993EEBD164617AED10567B96EB45;
+			remoteInfo = "Pods-WJUIMaker_Example";
+		};
+		C396AB210B6D8FDFB3D2516D331742D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3C7BCCDDF42C11361C36C745A40261;
+			remoteInfo = WJUIMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09539319A1973C7725EB0F8C5786EFFB /* Pods-WJUIMaker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJUIMaker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0A49DD4D95933CBE93E07658E394D72F /* Pods-WJUIMaker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJUIMaker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CFAFDC465E8451CFFAAE66BE34E6548 /* WJUIViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJUIViewMaker.m; sourceTree = "<group>"; };
+		23B021E2FC60A40EA8A88799ED96928F /* WJUIMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJUIMaker.h; path = WJUIMaker/Classes/WJUIMaker.h; sourceTree = "<group>"; };
+		244AE0106BFFE799C030039F5E8C64FB /* Pods-WJUIMaker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJUIMaker_Example-umbrella.h"; sourceTree = "<group>"; };
+		27C003FD13ACBB5D7927D9ACBCD54D2F /* Pods-WJUIMaker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJUIMaker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2CC5306145795DCCDB4B7B1B68C539E7 /* Pods-WJUIMaker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJUIMaker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		304B81AB42693454A959F9515B8B60E6 /* WJUIMaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJUIMaker-dummy.m"; sourceTree = "<group>"; };
+		34F48C66F902A2975D218CF3D05B0F4F /* WJUIMaker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WJUIMaker-Info.plist"; sourceTree = "<group>"; };
+		3B97E12415F23F9573FDFA3027AF61E5 /* WJTableViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJTableViewMaker.m; sourceTree = "<group>"; };
+		495624AEE1387DE887632A4452558A9B /* Pods-WJUIMaker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJUIMaker_Example-Info.plist"; sourceTree = "<group>"; };
+		4F3844B3642C4E308A13E39EB5103F4A /* WJTextViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJTextViewMaker.h; sourceTree = "<group>"; };
+		51723B450A51B28CFA8CC190AA52CCED /* Pods-WJUIMaker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJUIMaker_Tests-dummy.m"; sourceTree = "<group>"; };
+		55A23636D4B013A00B3C36D12F3334F8 /* WJUIMaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJUIMaker-umbrella.h"; sourceTree = "<group>"; };
+		5B1D954D36FAD7E4B18BCCD7ACF9200A /* WJUIMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJUIMaker.release.xcconfig; sourceTree = "<group>"; };
+		62FC6930468011D726BD8A04B772E845 /* WJUIMaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WJUIMaker.modulemap; sourceTree = "<group>"; };
+		69C70C6462B01B1DAF35E7123E68B811 /* Pods-WJUIMaker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJUIMaker_Example-dummy.m"; sourceTree = "<group>"; };
+		6D1B86DDC8DACF977ED7A6F91F54ACD3 /* Pods-WJUIMaker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJUIMaker_Example.modulemap"; sourceTree = "<group>"; };
+		6D9ACB87CBA91D2E0930E59D13482735 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		70C98AAAB284DA3CE193CFAAC8B69EEE /* WJUIControlMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJUIControlMaker.h; sourceTree = "<group>"; };
+		72E9EC3F775CCE8F09123F367AA213F5 /* Pods_WJUIMaker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJUIMaker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7373A349194600C99F1555565670D725 /* WJTextViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJTextViewMaker.m; sourceTree = "<group>"; };
+		7EAD208C14090A4CEC433FB889CC8697 /* Pods-WJUIMaker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJUIMaker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82E8DD91B24865FE29F10B513D843024 /* WJLabelMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJLabelMaker.h; sourceTree = "<group>"; };
+		84250FE683C2994CA28C1E9AAAA6E02C /* WJUIControlMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJUIControlMaker.m; sourceTree = "<group>"; };
+		86570E4E54E8C917D633DF720ACB1ECD /* WJScrollViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJScrollViewMaker.m; sourceTree = "<group>"; };
+		86EF23B2E6F6B5ED8D252D077D37247F /* WJScrollViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJScrollViewMaker.h; sourceTree = "<group>"; };
+		8A719689B95DCF1A4417FC542D9B7683 /* WJButtonMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJButtonMaker.m; sourceTree = "<group>"; };
+		8BDC2E860C4C310F665EACA4816E43D4 /* WJCollectionViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJCollectionViewMaker.h; sourceTree = "<group>"; };
+		95C0551603F3A8FA1C96B1A5F31E4A30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9634826C4D0584E4D033844C63CAD5A4 /* WJUIMaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJUIMaker-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8B4DE10507CDE93D443B256902204C0 /* WJUIMaker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WJUIMaker.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		AB15D7A51F848216E71D20F0BB8215C5 /* Pods-WJUIMaker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJUIMaker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C025F56D6216CE5F2652C9D2CDB13D03 /* WJTextFieldMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJTextFieldMaker.m; sourceTree = "<group>"; };
+		C168C7416D07EC72EF1C92967DA88241 /* Pods-WJUIMaker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJUIMaker_Tests-Info.plist"; sourceTree = "<group>"; };
+		C3F094AF64B6048E3EBFDAC37B20ED39 /* WJLabelMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJLabelMaker.m; sourceTree = "<group>"; };
+		C6D6D9D5D113D7C051DB2B6FA0A6DBA8 /* WJUIMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJUIMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88655E65BDAA385DF19A7813FAABB27 /* Pods-WJUIMaker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJUIMaker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB57C121A3443AD5ACE74973A5BEF68 /* WJButtonMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJButtonMaker.h; sourceTree = "<group>"; };
+		D544C3211110759C2A4C2C0D6831597D /* WJImageViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJImageViewMaker.m; sourceTree = "<group>"; };
+		DAA51CC47B8CE268AB066A4F1DBF5BB1 /* Pods-WJUIMaker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJUIMaker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDB892A9FBAE1A24716777FD215E23D8 /* WJUIViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJUIViewMaker.h; sourceTree = "<group>"; };
+		DFB8048BC9B66DEE9174D0F4D2182E10 /* Pods-WJUIMaker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJUIMaker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E097CAF35DE0804D51EFDC7F150A9238 /* WJUIMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJUIMaker.debug.xcconfig; sourceTree = "<group>"; };
+		E3BBFB8B40BE1C3FFD741716BF34F66E /* WJTextFieldMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJTextFieldMaker.h; sourceTree = "<group>"; };
+		EE7E7583EBCB066842D8F48E0166A004 /* Pods_WJUIMaker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJUIMaker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FBB1E0EF0B98A561CAA8A1DA0BE310 /* WJTableViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJTableViewMaker.h; sourceTree = "<group>"; };
+		F2C43745EB0045878FF8B39D12262FFD /* WJCollectionViewMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WJCollectionViewMaker.m; sourceTree = "<group>"; };
+		F8CC44F64EA77DF30875A6EDCCB32397 /* Pods-WJUIMaker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WJUIMaker_Tests.modulemap"; sourceTree = "<group>"; };
+		FAB0E20FF1978F25B31B652C252A8080 /* Pods-WJUIMaker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJUIMaker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FC35175C673751241030AA8BA1BE4888 /* WJImageViewMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WJImageViewMaker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B3B83BE0285A01FE76E6A7F386D87BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896CA544DD7617D361C5E3A86B900CE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59752FBC63B86033F0F8B964C9A88CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADA9B842568345E0588AC32D4825C4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDDB61D33B8561EC2E4751E4E62383E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8E4FA3CB593327B159FBEAFEDD91DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B892FA0EDC4095B627B49EBDA9BCA2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E7583EBCB066842D8F48E0166A004 /* Pods_WJUIMaker_Example.framework */,
+				72E9EC3F775CCE8F09123F367AA213F5 /* Pods_WJUIMaker_Tests.framework */,
+				C6D6D9D5D113D7C051DB2B6FA0A6DBA8 /* WJUIMaker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FEF438EDF2CA3B93C5FF195BA09A10 /* Pods-WJUIMaker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC44F64EA77DF30875A6EDCCB32397 /* Pods-WJUIMaker_Tests.modulemap */,
+				0A49DD4D95933CBE93E07658E394D72F /* Pods-WJUIMaker_Tests-acknowledgements.markdown */,
+				DAA51CC47B8CE268AB066A4F1DBF5BB1 /* Pods-WJUIMaker_Tests-acknowledgements.plist */,
+				51723B450A51B28CFA8CC190AA52CCED /* Pods-WJUIMaker_Tests-dummy.m */,
+				C168C7416D07EC72EF1C92967DA88241 /* Pods-WJUIMaker_Tests-Info.plist */,
+				27C003FD13ACBB5D7927D9ACBCD54D2F /* Pods-WJUIMaker_Tests-umbrella.h */,
+				C88655E65BDAA385DF19A7813FAABB27 /* Pods-WJUIMaker_Tests.debug.xcconfig */,
+				7EAD208C14090A4CEC433FB889CC8697 /* Pods-WJUIMaker_Tests.release.xcconfig */,
+			);
+			name = "Pods-WJUIMaker_Tests";
+			path = "Target Support Files/Pods-WJUIMaker_Tests";
+			sourceTree = "<group>";
+		};
+		322C9CA6C5482F3EDC5F11A6A8AAEDED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD3EAD9304539DFF9EAF075545389B57 /* Pods-WJUIMaker_Example */,
+				28FEF438EDF2CA3B93C5FF195BA09A10 /* Pods-WJUIMaker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		354A7189196A2DC103450E8D09A90246 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62FC6930468011D726BD8A04B772E845 /* WJUIMaker.modulemap */,
+				304B81AB42693454A959F9515B8B60E6 /* WJUIMaker-dummy.m */,
+				34F48C66F902A2975D218CF3D05B0F4F /* WJUIMaker-Info.plist */,
+				9634826C4D0584E4D033844C63CAD5A4 /* WJUIMaker-prefix.pch */,
+				55A23636D4B013A00B3C36D12F3334F8 /* WJUIMaker-umbrella.h */,
+				E097CAF35DE0804D51EFDC7F150A9238 /* WJUIMaker.debug.xcconfig */,
+				5B1D954D36FAD7E4B18BCCD7ACF9200A /* WJUIMaker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJUIMaker";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9604F4D2DA74D4ED004964C6B030FA84 /* UIMaker */ = {
+			isa = PBXGroup;
+			children = (
+				CBB57C121A3443AD5ACE74973A5BEF68 /* WJButtonMaker.h */,
+				8A719689B95DCF1A4417FC542D9B7683 /* WJButtonMaker.m */,
+				8BDC2E860C4C310F665EACA4816E43D4 /* WJCollectionViewMaker.h */,
+				F2C43745EB0045878FF8B39D12262FFD /* WJCollectionViewMaker.m */,
+				FC35175C673751241030AA8BA1BE4888 /* WJImageViewMaker.h */,
+				D544C3211110759C2A4C2C0D6831597D /* WJImageViewMaker.m */,
+				82E8DD91B24865FE29F10B513D843024 /* WJLabelMaker.h */,
+				C3F094AF64B6048E3EBFDAC37B20ED39 /* WJLabelMaker.m */,
+				F1FBB1E0EF0B98A561CAA8A1DA0BE310 /* WJTableViewMaker.h */,
+				3B97E12415F23F9573FDFA3027AF61E5 /* WJTableViewMaker.m */,
+				E3BBFB8B40BE1C3FFD741716BF34F66E /* WJTextFieldMaker.h */,
+				C025F56D6216CE5F2652C9D2CDB13D03 /* WJTextFieldMaker.m */,
+				4F3844B3642C4E308A13E39EB5103F4A /* WJTextViewMaker.h */,
+				7373A349194600C99F1555565670D725 /* WJTextViewMaker.m */,
+				CCBAE6CC7BE84487AFB846881C51AB65 /* BaseClass */,
+			);
+			name = UIMaker;
+			path = WJUIMaker/Classes/UIMaker;
+			sourceTree = "<group>";
+		};
+		AD3EAD9304539DFF9EAF075545389B57 /* Pods-WJUIMaker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6D1B86DDC8DACF977ED7A6F91F54ACD3 /* Pods-WJUIMaker_Example.modulemap */,
+				2CC5306145795DCCDB4B7B1B68C539E7 /* Pods-WJUIMaker_Example-acknowledgements.markdown */,
+				DFB8048BC9B66DEE9174D0F4D2182E10 /* Pods-WJUIMaker_Example-acknowledgements.plist */,
+				69C70C6462B01B1DAF35E7123E68B811 /* Pods-WJUIMaker_Example-dummy.m */,
+				FAB0E20FF1978F25B31B652C252A8080 /* Pods-WJUIMaker_Example-frameworks.sh */,
+				495624AEE1387DE887632A4452558A9B /* Pods-WJUIMaker_Example-Info.plist */,
+				244AE0106BFFE799C030039F5E8C64FB /* Pods-WJUIMaker_Example-umbrella.h */,
+				09539319A1973C7725EB0F8C5786EFFB /* Pods-WJUIMaker_Example.debug.xcconfig */,
+				AB15D7A51F848216E71D20F0BB8215C5 /* Pods-WJUIMaker_Example.release.xcconfig */,
+			);
+			name = "Pods-WJUIMaker_Example";
+			path = "Target Support Files/Pods-WJUIMaker_Example";
+			sourceTree = "<group>";
+		};
+		CCBAE6CC7BE84487AFB846881C51AB65 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				86EF23B2E6F6B5ED8D252D077D37247F /* WJScrollViewMaker.h */,
+				86570E4E54E8C917D633DF720ACB1ECD /* WJScrollViewMaker.m */,
+				70C98AAAB284DA3CE193CFAAC8B69EEE /* WJUIControlMaker.h */,
+				84250FE683C2994CA28C1E9AAAA6E02C /* WJUIControlMaker.m */,
+				DDB892A9FBAE1A24716777FD215E23D8 /* WJUIViewMaker.h */,
+				1CFAFDC465E8451CFFAAE66BE34E6548 /* WJUIViewMaker.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E47EB8E8EDA9BDED3686434E2415CEC3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1B892FA0EDC4095B627B49EBDA9BCA2B /* Products */,
+				322C9CA6C5482F3EDC5F11A6A8AAEDED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E47EB8E8EDA9BDED3686434E2415CEC3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED531A461B858C376A850EC0BE3EEFF4 /* WJUIMaker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EC2B07E92B6F981EF1B8CA9FBC605780 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				95C0551603F3A8FA1C96B1A5F31E4A30 /* LICENSE */,
+				6D9ACB87CBA91D2E0930E59D13482735 /* README.md */,
+				A8B4DE10507CDE93D443B256902204C0 /* WJUIMaker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		ED531A461B858C376A850EC0BE3EEFF4 /* WJUIMaker */ = {
+			isa = PBXGroup;
+			children = (
+				23B021E2FC60A40EA8A88799ED96928F /* WJUIMaker.h */,
+				EC2B07E92B6F981EF1B8CA9FBC605780 /* Pod */,
+				354A7189196A2DC103450E8D09A90246 /* Support Files */,
+				9604F4D2DA74D4ED004964C6B030FA84 /* UIMaker */,
+			);
+			name = WJUIMaker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A67DB46045DC1A4A8F1E2F79645EC6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A797E63AD32AFDD9A58D5D10758B597F /* Pods-WJUIMaker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A286C470BED4CD6125DF9F77FC8E772A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5557411D2C9DBF85F8A4EEA3854DCD2E /* WJButtonMaker.h in Headers */,
+				EE9FC6AB01C5CC949199308281433D97 /* WJCollectionViewMaker.h in Headers */,
+				751AC03BCC988CB50A88F5E54FAB4D66 /* WJImageViewMaker.h in Headers */,
+				08A772B0BA17862DCDE31286BBE91DD8 /* WJLabelMaker.h in Headers */,
+				E631D764D3ECF91B60142ADA6993C682 /* WJScrollViewMaker.h in Headers */,
+				8ED1FC629CE46933DB66761BACCDAD2D /* WJTableViewMaker.h in Headers */,
+				33E03668E2335D4792B9FD6528D19C2F /* WJTextFieldMaker.h in Headers */,
+				8216A2BD9FEEBA7368A794385809C835 /* WJTextViewMaker.h in Headers */,
+				0FFF9B035DDE8E0F6DA6F5016D89467E /* WJUIControlMaker.h in Headers */,
+				0C7C98AEA8F5EDEE9C7524E1B7DD6D84 /* WJUIMaker-umbrella.h in Headers */,
+				01F0D0F7B12F193DBF1AA18D355A7EE5 /* WJUIMaker.h in Headers */,
+				3577E54F3D7B47F73036EEEA827829FE /* WJUIViewMaker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD92987D7A541088BCA3F3713C3FE2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6AE19CC7D2D30B711F01DCEF6788B3 /* Pods-WJUIMaker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F3C7BCCDDF42C11361C36C745A40261 /* WJUIMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA23327AE32D0A1FEF183269B3F7358D /* Build configuration list for PBXNativeTarget "WJUIMaker" */;
+			buildPhases = (
+				A286C470BED4CD6125DF9F77FC8E772A /* Headers */,
+				B8E121A9BD17D1E4B926EA3EB55C9AB0 /* Sources */,
+				1B3B83BE0285A01FE76E6A7F386D87BB /* Frameworks */,
+				1DD7128861AE8427058EA7ADDE3017F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJUIMaker;
+			productName = WJUIMaker;
+			productReference = C6D6D9D5D113D7C051DB2B6FA0A6DBA8 /* WJUIMaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D77993EEBD164617AED10567B96EB45 /* Pods-WJUIMaker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FE07A537282A017556559747B15D79 /* Build configuration list for PBXNativeTarget "Pods-WJUIMaker_Example" */;
+			buildPhases = (
+				AAD92987D7A541088BCA3F3713C3FE2B /* Headers */,
+				578D83DCBF564DF4DC1E8490DADF3151 /* Sources */,
+				59752FBC63B86033F0F8B964C9A88CCA /* Frameworks */,
+				EF40D35E661D40C2CC8C5E77C8EF28A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10E69527A110F5C149102BFA5755BA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJUIMaker_Example";
+			productName = "Pods-WJUIMaker_Example";
+			productReference = EE7E7583EBCB066842D8F48E0166A004 /* Pods_WJUIMaker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B86AC188A495549484D791CB8AFEE4A4 /* Pods-WJUIMaker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D9BA0B13F0014677F95E472CA35D0F /* Build configuration list for PBXNativeTarget "Pods-WJUIMaker_Tests" */;
+			buildPhases = (
+				0A67DB46045DC1A4A8F1E2F79645EC6D /* Headers */,
+				4187932E50024B3E8E7C282DE944AA3D /* Sources */,
+				BBDDB61D33B8561EC2E4751E4E62383E /* Frameworks */,
+				5515963949F275827198A27172E4E539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F937A354F4042950DE96A5D247238FCB /* PBXTargetDependency */,
+			);
+			name = "Pods-WJUIMaker_Tests";
+			productName = "Pods-WJUIMaker_Tests";
+			productReference = 72E9EC3F775CCE8F09123F367AA213F5 /* Pods_WJUIMaker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1B892FA0EDC4095B627B49EBDA9BCA2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D77993EEBD164617AED10567B96EB45 /* Pods-WJUIMaker_Example */,
+				B86AC188A495549484D791CB8AFEE4A4 /* Pods-WJUIMaker_Tests */,
+				0F3C7BCCDDF42C11361C36C745A40261 /* WJUIMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD7128861AE8427058EA7ADDE3017F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5515963949F275827198A27172E4E539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF40D35E661D40C2CC8C5E77C8EF28A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4187932E50024B3E8E7C282DE944AA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C9C182041BB4AC909591C5E2C89503 /* Pods-WJUIMaker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578D83DCBF564DF4DC1E8490DADF3151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1713F39C72AD178639D9C2A2CF300F63 /* Pods-WJUIMaker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E121A9BD17D1E4B926EA3EB55C9AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55B47E2A2E5CA54B37B54197CA8B758 /* WJButtonMaker.m in Sources */,
+				8ADE78536B6AF4BB94A60873ED4D68E2 /* WJCollectionViewMaker.m in Sources */,
+				5A76C3E5E7396502E75380965998B98E /* WJImageViewMaker.m in Sources */,
+				85D79826063BDDC362CBD173AF13DC1D /* WJLabelMaker.m in Sources */,
+				24FA113917CDE876F1A30E116E1BF267 /* WJScrollViewMaker.m in Sources */,
+				C7CB6DD5BFF702E31482D1414A8CF668 /* WJTableViewMaker.m in Sources */,
+				A8B552BD66D0C925DB460AE3FB16C8CD /* WJTextFieldMaker.m in Sources */,
+				54F01EBC6B297BD60C6E2ECF966E81D9 /* WJTextViewMaker.m in Sources */,
+				9EB7D3985C3A7AF2D9FA7C64F34B8D76 /* WJUIControlMaker.m in Sources */,
+				179B68211293303DD97E5289992DDC8B /* WJUIMaker-dummy.m in Sources */,
+				95F0E115529AE76B5480F543233FEE09 /* WJUIViewMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10E69527A110F5C149102BFA5755BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJUIMaker;
+			target = 0F3C7BCCDDF42C11361C36C745A40261 /* WJUIMaker */;
+			targetProxy = C396AB210B6D8FDFB3D2516D331742D3 /* PBXContainerItemProxy */;
+		};
+		F937A354F4042950DE96A5D247238FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WJUIMaker_Example";
+			target = 5D77993EEBD164617AED10567B96EB45 /* Pods-WJUIMaker_Example */;
+			targetProxy = 045D5B017008222C0BC8F0EE3673F6AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C684C1843A05A084690C6152D0C03FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E097CAF35DE0804D51EFDC7F150A9238 /* WJUIMaker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WJUIMaker/WJUIMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJUIMaker/WJUIMaker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJUIMaker/WJUIMaker.modulemap";
+				PRODUCT_MODULE_NAME = WJUIMaker;
+				PRODUCT_NAME = WJUIMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46C047B2CA51B03F7144DCC7FF64BE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1D954D36FAD7E4B18BCCD7ACF9200A /* WJUIMaker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WJUIMaker/WJUIMaker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJUIMaker/WJUIMaker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJUIMaker/WJUIMaker.modulemap";
+				PRODUCT_MODULE_NAME = WJUIMaker;
+				PRODUCT_NAME = WJUIMaker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DB43A2A4718D35E9CD65BD7F9B710F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB15D7A51F848216E71D20F0BB8215C5 /* Pods-WJUIMaker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJUIMaker_Example/Pods-WJUIMaker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJUIMaker_Example/Pods-WJUIMaker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72AB7A1D0F5C3231CA2DBEB40EC7DBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88655E65BDAA385DF19A7813FAABB27 /* Pods-WJUIMaker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJUIMaker_Tests/Pods-WJUIMaker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJUIMaker_Tests/Pods-WJUIMaker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B624D98AAD725A18C8AB2569B9DBCBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09539319A1973C7725EB0F8C5786EFFB /* Pods-WJUIMaker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJUIMaker_Example/Pods-WJUIMaker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJUIMaker_Example/Pods-WJUIMaker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0A511B41856A7B34901FC1BC3043954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAD208C14090A4CEC433FB889CC8697 /* Pods-WJUIMaker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WJUIMaker_Tests/Pods-WJUIMaker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJUIMaker_Tests/Pods-WJUIMaker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D9BA0B13F0014677F95E472CA35D0F /* Build configuration list for PBXNativeTarget "Pods-WJUIMaker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AB7A1D0F5C3231CA2DBEB40EC7DBD5 /* Debug */,
+				D0A511B41856A7B34901FC1BC3043954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FE07A537282A017556559747B15D79 /* Build configuration list for PBXNativeTarget "Pods-WJUIMaker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B624D98AAD725A18C8AB2569B9DBCBFF /* Debug */,
+				4DB43A2A4718D35E9CD65BD7F9B710F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA23327AE32D0A1FEF183269B3F7358D /* Build configuration list for PBXNativeTarget "WJUIMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C684C1843A05A084690C6152D0C03FF /* Debug */,
+				46C047B2CA51B03F7144DCC7FF64BE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
